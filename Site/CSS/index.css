@@ -1,5 +1,5 @@
 html {
-  background-color: #b6b6b6;
+ background-color: #414141; 
 }
 
 
@@ -7,10 +7,24 @@ body {
     margin: 0;
     font-family: 'quattro', 'roboto';
   }
+
+  footer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5%;
+    background-color: #000000;
+    padding: 10px;
+    
+  }
+
+  footer > div {
+    color: white;
+  }
   
   .topnav {
     overflow: hidden;
-    background-color: #0D0D0D;
+    background-color: #141414;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     position: fixed;
@@ -83,13 +97,13 @@ body {
     max-height: 400;
     position: auto;
     border-radius: 8px;
-    /*paralax*/
+    border: 4px white;
   
   }
   
 
   .active {
-    background-color: #717171;
+    background-color: #505050;
   }
   
   @keyframes fade {
@@ -117,7 +131,7 @@ body {
 }
 
 .platforms {
-  background-color: #0D0D0D;
+  background-color: #1b1b1b;
   border: none;
   padding: 5px 54px;
   align-content: center;
@@ -127,7 +141,7 @@ body {
 }
 
 .nintendo {
-  background-color: #0D0D0D;
+  background-color: #1b1b1b;
   border: none;
   padding: 5px 24px;
   align-content: center;
@@ -138,11 +152,19 @@ body {
 
 .grid-container-showcase {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px 250px;
   gap: 15%;
-  background-color: #0D0D0D;
+  row-gap: 40px;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
 
-
+.game-showcase {
+  display: grid;
+  background-color: #1b1b1b;
+  grid-template-columns: 60% 40%;
+  border: 3px solid #383838;
   border-radius: 8px;
 }
