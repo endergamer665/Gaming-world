@@ -12,10 +12,10 @@ body {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 100px 100px 100px;
-    gap: 5%;
+
     background-color: #000000;
     padding: 10px;
-    
+    bottom: 0;
   }
 
   footer > div {

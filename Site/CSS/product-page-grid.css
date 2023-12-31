@@ -1,0 +1,112 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 600px 600px;
+    gap: 10%;
+    row-gap: 70px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+ }
+
+ .grid-container > article {
+   background-color: #1b1b1b;
+   border: 3px solid #383838;
+   border-radius: 8px;
+ }
+
+
+.grid-container-end {
+   display: grid;
+
+}
+
+@media screen and (max-width: 4000px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 450px 450px 450px 450px; 
+    grid-template-rows: 600px ;
+    gap: 1.7%;
+   justify-content: center;
+   padding-top: 100px;
+   padding-bottom: 30px;
+ }
+
+ .grid-container > article {
+   background-color: #1b1b1b;
+   border: 3px solid #383838;
+   border-radius: 8px;
+ }
+}
+
+@media screen and (max-width: 1900px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 600px 600px;
+    gap: 10%;
+   row-gap: 70px;
+   justify-content: center;
+   padding-top: 100px;
+   padding-bottom: 30px;
+ }
+
+ .grid-container > article {
+   background-color: #1b1b1b;
+   border: 3px solid #383838;
+   border-radius: 8px;
+ }
+}
+
+@media screen and (max-width: 1000px) {
+   .grid-container {
+      display: grid;
+      grid-template-columns: 450px;
+      grid-template-rows: 600px 600px 600px 600px;
+      gap: 10%;
+     row-gap: 70px;
+     justify-content: center;
+     padding-top: 100px;
+     padding-bottom: 30px;
+   }
+  
+   .grid-container > article {
+     background-color: #1b1b1b;
+     border: 3px solid #383838;
+     border-radius: 8px;
+   }
+
+}
+
+
+.grid-container-end {
+  display: grid;
+  grid-template-rows: 500px 500px 500px 500px;
+  padding-top: 60px;
+}
+
+/*
+.grid-container-end {
+  display: grid;
+  grid-template-rows: 500px 500px 500px 500px;
+  padding-top: 60px;
+}
+
+.grid-container-end  > #grid-container-end-1 {
+  display: grid;
+  size: 100%;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+}
+
+.grid-container-end > #grid-container-end-1 > div {
+  background-color: #353535;
+  border: 1px white;
+}
+
+.grid-container-end  > #grid-container-end-2 {
+  display: grid;
+  size: 100%;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+} */
